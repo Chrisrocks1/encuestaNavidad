@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="formulario.exe" version="1.0.0.4" publicKeyToken="04135db711308d21" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="iconoEncuesta (1).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="formulario" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="formulario.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de UAC
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar Virtualización de archivos y Registro para compatibilidad con 
+         versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="formulario.exe" size="6080480">
+      <assemblyIdentity name="formulario" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qmW1IeABGLg1u/h098RrsRXZzW8vEyn51yWbW/1pkUw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="formulario.exe.config" size="940">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eb41VnWzXKfq7+7T7SP6ghrot3JUY6E4ZXQOGDNQq6w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconoEncuesta (1).ico" size="15535">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zMCCC9G63YLx/bQG7eGcrX58ql2x0mPOJyhrjMssJW4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\calamardoNavidad.gif" size="2964536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SJxqDCNXeMrHCwyruZvSPpZewuc8KMhQiZWMK5pOiH4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\renos.gif" size="52659">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vsybZ2EeVhfDeHeaPBptS4WhfIDIqRGLp6QIrieWqD0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\santaClaus.gif" size="51072">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+qNXvHFUdX59Jq8RvHVeiP/LdaqGWT4op2fdWa0OL9o=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-RAA3PUFQ\ruben" issuerKeyHash="d8419813a6d97cef151ae0afdf67ed5308ff5548" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>q1xKkrrPU6GU4XfeK+HEiTPA1BaaVugFm0w0CrNhlL0=</DigestValue></Reference></SignedInfo><SignatureValue>UHZ3BIkN9Vz7xP4WjY14mUBExdQntEYmL8zZVvuV4ynweTAyM6/kMw8psvkiSrkds5Y98k3VQNbVKHZ6mS7Z+2V3wBxKoJIvO2mnZmjJNyDve4a3PdmNgKwoBiPm4u2OZBhLWTUKWl68DZuuHNzMZ3ouW7rYRoYTLdqyqVTZ+sk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sFlkol7ocgMmQmaK8SHixXSnK9rh9/L2qdSP5+BPTJLayQZ7R8AkzEGkFmivL3yJJaa0d41a3FHJemd9E7Jlye1bw5NG6i8OuFRvo4pBk5tBwnuCiMsMx82dda3kdppzQh3hlZVP20QzI2XmRpt10wF7RplZ2ObE3NGu7OfqTZU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bd9461b30a344c9b05e8569a16d4c03389c4e12bde77e194a153cfba924a5cab" Description="" Url=""><as:assemblyIdentity name="formulario.exe" version="1.0.0.4" publicKeyToken="04135db711308d21" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-RAA3PUFQ\ruben</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>c3LPKwSmjCxyhOeIyOJ7sbhBlDjGLHOCNzUvue1LmYo=</DigestValue></Reference></SignedInfo><SignatureValue>h8NzFN3IQE67S2H7Om3X6EQaXmkat1dnXrV793M4HTjiArjG5wmnOdg6NviTMo9tMN3QcoOOySwL+IapUFFlEc45hn/BwCfPUKu6Tp1FEdBYQYLXVCsBdv2vnWIBGcyu3mTCzefVqg097aE3mNMoJTUCQsJ9DxH4Vs0LYBkvOFs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sFlkol7ocgMmQmaK8SHixXSnK9rh9/L2qdSP5+BPTJLayQZ7R8AkzEGkFmivL3yJJaa0d41a3FHJemd9E7Jlye1bw5NG6i8OuFRvo4pBk5tBwnuCiMsMx82dda3kdppzQh3hlZVP20QzI2XmRpt10wF7RplZ2ObE3NGu7OfqTZU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQH4+tt3F8eIBOAst10pVYnTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBSAEEAQQAzAFAAVQBGAFEAXAByAHUAYgBlAG4wHhcNMjIxMTIwMDIwNDQzWhcNMjMxMTIwMDgwNDQzWjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBSAEEAQQAzAFAAVQBGAFEAXAByAHUAYgBlAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALBZZKJe6HIDJkJmivEh4sV0pyva4ffy9qnUj+fgT0yS2skGe0fAJMxBpBZory98iSWmtHeNWtxRyXpnfROyZcntW8OTRuovDrhUb6OKQZObQcJ7gojLDMfNnXWt5Haac0Id4ZWVT9tEMyNl5kabddMBe0aZWdjmxNzRruzn6k2VAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAhl3B4vH+CWdTU1DXHrj/VWIUgq62nNzfDv+pBe+Ja4x3CP3B1u8hlUxwgwZmjqQwBKViRlBY4u7S41SpDbbsdkqxWkELfZ5tZo5hrZnmppWTw6TsjIJyoRyFmNMDMv+D4/R8DL2WFHSt6G3op190mjzJlKFMDKdHeiyI0fNrgeY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

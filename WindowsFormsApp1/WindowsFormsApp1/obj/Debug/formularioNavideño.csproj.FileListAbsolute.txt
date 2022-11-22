@@ -1,0 +1,16 @@
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\formularioNavideño.csprojAssemblyReference.cache
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Usuario.resources
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\formularioNavideño.csproj.GenerateResource.cache
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\formularioNavideño.csproj.CoreCompileInputs.cache
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formulario.resources
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\formulario.exe.config
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\formulario.exe.manifest
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\formulario.application
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\formulario.exe
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\formulario.pdb
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\formulario.g.resources
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\formulario.exe.manifest
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\formulario.application
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\formulario.exe
+C:\Users\ruben\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\formulario.pdb
